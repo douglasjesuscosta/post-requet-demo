@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/douglasjesuscosta/post-requet-demo#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
     "express": "^4.16.3"
   }
 }

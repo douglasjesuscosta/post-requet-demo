@@ -1,0 +1,11 @@
+<h1>Lista de clientes da loja</h1>
+
+<ul>
+    <% clientes.forEach(function(cliente){ %>
+        <li>
+            Nome: <%= cliente.name %> 
+            CPF: <%= cliente.cpf %> 
+            RG: <%= cliente.rg %>
+        </li>
+   <% }) %>
+</ul>
